@@ -1,6 +1,6 @@
 use std::{
     fs::{self, File},
-    io::{Error, ErrorKind, Read, Write},
+    io::{ErrorKind, Read},
 };
 
 use zed_extension_api::{
